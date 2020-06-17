@@ -1,0 +1,30 @@
+@font-face
+{
+    font-family: 'Caladea';
+    @import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&display=swap');
+}
+
+
+@font-face
+{
+    font-family: 'Aileron';
+    @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+}
+
+h1
+{
+font-family: 'Caladea';
+font-weight: bold;
+}
+
+h1 strong
+{
+    color: red;
+}
+
+
+p
+{
+    font-family: 'Aileron';
+    color : blue;
+}
