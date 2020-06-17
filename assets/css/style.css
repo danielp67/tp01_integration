@@ -7,7 +7,7 @@
 
 @font-face
 {
-    font-family: 'Aileron';
+    font-family: 'Signika', verdana;
     @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 }
 
@@ -23,8 +23,8 @@ h1 strong
 }
 
 
-p
+h2
 {
-    font-family: 'Aileron';
-    color : blue;
+    font-family: 'Signika';
+    color : red;
 }
