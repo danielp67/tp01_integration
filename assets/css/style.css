@@ -11,10 +11,50 @@
     @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 }
 
+header
+{
+    margin-top: 65px;
+    
+    right: 95px;
+    height:290px;
+    width : 30px;
+    position: fixed;
+}
+
+
+nav ul
+{  
+    list-style-type: none; 
+}
+
+
+nav a img
+{
+    margin-top: 18px;
+    width: 18px;
+    height: 18px;
+    filter: contrast(20%);
+    -webkit-filter: contrast(20%);
+}
+
+nav a:hover
+{
+    filter: contrast(400%);
+    -webkit-filter: contrast(400%);
+}
+
+
+
+
+
+
+
+
 h1
 {
 font-family: 'Caladea';
 font-weight: bold;
+font-size: 2em;
 }
 
 h1 strong
@@ -27,4 +67,11 @@ h2
 {
     font-family: 'Signika';
     color : red;
+}
+
+#back1
+{
+    background: url('assets/img/background_2.jpg') no-repeat;
+    height: 50%;
+    
 }
