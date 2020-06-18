@@ -18,10 +18,17 @@
     src: url('../font/Aileron-Regular.otf') format('otf');
 }
 
+
+@font-face
+{
+    font-family: "FontAwesome";
+    src: url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+
+}
+
 header
 {
     margin-top: 65px;
-    
     right: 95px;
     height:290px;
     width : 30px;
@@ -32,26 +39,54 @@ header
 nav ul
 {  
     list-style-type: none; 
+    width: 100%;
+}
+
+nav li
+{
+    width: 100%;
+    
+}
+
+#navigation span
+{
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: black;
+  z-index: 1;
+}
+
+nav a
+{
+    margin-top: 18px;
+    height:30px;
+    width: 30px;
+    display: block;
 }
 
 
 nav a img
 {
-    margin-top: 18px;
+   
     width: 18px;
     height: 18px;
     filter: contrast(20%);
     -webkit-filter: contrast(20%);
+    margin: auto;
+    display: block;
+    
 }
+
+
 
 nav a:hover
 {
     filter: contrast(400%);
     -webkit-filter: contrast(400%);
 }
-
-
-
 
 
 
@@ -92,7 +127,70 @@ h2
     
 }
 
+.list_page2
+{
+    list-style-type: none;
+}
+
+
+.star :before
+{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f005"  ;
+}
+
+.heart ::before
+{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f004"  ;
+    width : 16%; ;
+}
+
+.moon  :before
+{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f186"  ;
+    width : 16%;
+}
+
 .bg-danger
 {
     height: 100vh;
+}
+
+.page3 h3
+{
+    margin-top : 20%;
+    margin-bottom: 6.5%;
+}
+
+.bloc
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.textp3
+{
+  
+}
+
+.iconep3
+{
+   
+
+}
+
+.gear
+{
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+    border: 5px solid white;
+    width:64px;
+    height:64px;
 }
