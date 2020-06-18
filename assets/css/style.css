@@ -11,6 +11,13 @@
     @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 }
 
+
+@font-face
+{
+    font-family: 'Aileron';
+    src: url('../font/Aileron-Regular.otf') format('otf');
+}
+
 header
 {
     margin-top: 65px;
@@ -48,6 +55,21 @@ nav a:hover
 
 
 
+.bg
+{
+    background: url('../img/background_1.jpg') no-repeat center bottom;  
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.page1
+{
+    text-align: center;
+    padding-top: 25vh; 
+}
 
 
 h1
@@ -57,21 +79,20 @@ font-weight: bold;
 font-size: 2em;
 }
 
-h1 strong
-{
-    color: red;
-}
 
+.page2 
+{
+    padding-top: 25vh; 
+}
 
 h2
 {
-    font-family: 'Signika';
-    color : red;
+    text-align: left;
+    font-family: 'Aileron';
+    
 }
 
-#back1
+.bg-danger
 {
-    background: url('assets/img/background_2.jpg') no-repeat;
-    height: 50%;
-    
+    height: 100vh;
 }
