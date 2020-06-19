@@ -7,24 +7,12 @@
 
 @font-face
 {
-    font-family: 'Signika', verdana;
-    @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
-}
-
-
-@font-face
-{
     font-family: 'Aileron';
-    src: url('../font/Aileron-Regular.otf') format('otf');
+    src: url('../font/Aileron-Regular.otf') format('truetype');
 }
 
 
-@font-face
-{
-    font-family: "FontAwesome";
-    src: url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
 
-}
 
 header
 {
@@ -111,7 +99,7 @@ h1
 {
 font-family: 'Caladea';
 font-weight: bold;
-font-size: 2em;
+font-size: 2rem;
 }
 
 
@@ -120,77 +108,76 @@ font-size: 2em;
     padding-top: 25vh; 
 }
 
-h2
+.page2 h2
 {
     text-align: left;
-    font-family: 'Aileron';
+    font-family: 'Caladea';
+    font-weight: bold;
     
 }
 
-.list_page2
+.page2 i
 {
-    list-style-type: none;
+
+    display: block;
 }
 
-
-.star :before
-{
-    font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f005"  ;
-}
-
-.heart ::before
-{
-    font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f004"  ;
-    width : 16%; ;
-}
-
-.moon  :before
-{
-    font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f186"  ;
-    width : 16%;
-}
 
 .bg-danger
 {
-    height: 100vh;
+    height: 100%;
 }
 
-.page3 h3
+.page3 h2
 {
     margin-top : 20%;
-    margin-bottom: 6.5%;
-}
-
-.bloc
-{
-    display: flex;
-    flex-direction: row;
     
-}
-
-.textp3
-{
-  
-}
-
-.iconep3
-{
-   
+    text-align: left;
+    font-family: 'Caladea';
+    font-weight: bold;
 
 }
 
-.gear
+.page3
 {
+    padding-bottom: 15%;
+}
+
+
+
+.iconep3 i
+{
+    width:64px;
+    height:64px;
+    font-size: 1.5rem;
     -webkit-border-radius:60px;
     -moz-border-radius:60px;
     border-radius:60px;
     border: 5px solid white;
+    display: block;
+}
+
+.iconep3f i
+{
     width:64px;
     height:64px;
+    font-size: 2rem;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+    border: 5px solid white;
+    display: block;
+}
+
+
+p, h5
+{
+    font-family: 'Aileron';
+    line-height: 30px;
+    
+}
+
+h5
+{
+    font-weight: bold;
 }
