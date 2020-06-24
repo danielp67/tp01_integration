@@ -1,8 +1,0 @@
-Projet Intégration 1 (disponible dans Documents partagés) :
-- Projet individuel
-- Intégrer la maquette "Mark" en utilisant le plus possible Bootstrap
-- Code valide W3C : https://validator.w3.org/
-- Prévoir le responsive (un affichage différent des blocs en version mobile)
-- Versionner votre code en utilisant git sur un dépôt GitHub pour ce projet
-- Rendu mardi 23 juin soir (22h max), un lien en MP sur le chat de votre dépôt GitHub
-- Si vous avez fini avant, me prévenir afin que je vous trouve des choses utiles à faire et qu'on puisse tous avancer au mieux (3 mois ça passe vite)
